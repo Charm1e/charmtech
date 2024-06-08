@@ -1,0 +1,39 @@
+body {
+ background-color: #5585b5; 
+}
+
+h1 {
+ text-align: Center;
+ text-decoration-line: underline;
+ text-decoration-color: white;
+}
+
+.container {
+ position: relative;
+ left: 20%;
+ top: 80px;
+ background:  #53a8b6;
+ width: 50%;
+ height: 30%;
+ padding: 50px;
+ margin: 30px;
+ border-style: solid;
+ border-color: white;
+ border-radius:25px;
+ font-size: 3vw;
+ animation-name: walking;
+ animation-duration: 3s;
+ animation-delay: 2s;
+}
+
+@keyframes walking {
+ 0% {background-color:#fdb44b; right:200px; bottom:200px;}
+ 25% {background-color:#005792; left:200px; top:0px;}
+ 50% {background-color:#00bbf0; right:200px; bottom:200px;}
+ 75% {background-color:#fdb44b; left:200px; top:200px;}
+ 100%{background-color:#00204a; right:200px; center:0px;}
+}
+
+h2{
+ text-align: center;
+}
